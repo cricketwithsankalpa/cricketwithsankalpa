@@ -2,137 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cricket Zone</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matches - Cricket With Sankalpa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
   <style>
     body {
-      font-family: 'Poppins', sans-serif;
       margin: 0;
-      background: url('https://images.unsplash.com/photo-1607083206173-998bd13653c1?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
-      background-size: cover;
-      color: #222;
-    }
-    header {
-      background-image: url('https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=1920&q=80');
-      background-size: cover;
-      background-position: center;
-      position: relative;
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header::after {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background-color: rgba(0, 0, 0, 0.5);
-    }
-    header h1, header p {
-      position: relative;
-      z-index: 1;
-    }
-    nav {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      background-color: rgba(26, 77, 177, 0.9);
-    }
-    nav a {
+      align-items: center;
+      height: 100vh;
       color: white;
-      padding: 15px 25px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: background 0.3s;
     }
-    nav a:hover {
-      background-color: rgba(48, 95, 214, 0.9);
-    }
-    .content {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-      background: rgba(255, 255, 255, 0.9);
-      border-radius: 15px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-    }
-    .match-box {
-      background-color: white;
-      border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      padding: 20px;
-      margin-bottom: 25px;
-      transition: transform 0.2s ease;
-    }
-    .match-box:hover {
-      transform: scale(1.02);
-    }
-    footer {
-      background-color: rgba(11, 61, 145, 0.9);
-      color: white;
+    .container {
+      background: #001f3f;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      max-width: 500px;
+      width: 90%;
       text-align: center;
-      padding: 20px;
-      margin-top: 40px;
     }
-    @media (max-width: 768px) {
-      nav {
-        flex-direction: column;
-      }
-      nav a {
-        padding: 12px 15px;
-        text-align: center;
-      }
-      .content {
-        padding: 20px 15px;
-      }
-      .match-box {
-        padding: 15px;
-      }
-      header h1 {
-        font-size: 24px;
-      }
-      header p {
-        font-size: 14px;
-      }
+    h1 {
+      color: #ffcc00;
+      margin-bottom: 1rem;
+    }
+    .match-card {
+      background: #003366;
+      border-radius: 10px;
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+    .match-card p {
+      margin: 0.5rem 0;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      background-color: #ffcc00;
+      color: black;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.button:hover {
+      background-color: #e6b800;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>🏏 Upcoming Matches</h1>
 
-  <header>
-    <h1>🏏 Cricket With Sankalpa</h1>
-    <p>Your daily dose of cricket news & scores</p>
-  </header>
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="#">Matches</a>
-    <a href="players.html">Players</a>
-    <a href="news.html">News</a>
-    <a href="#">Contact</a>
-  </nav>
-
-  <div class="content">
-    <h2>Latest Matches</h2>
-
-    <div class="match-box">
-      <h3>Kolkata Knight Riders vs Rajasthan Royals</h3>
-      <p>KKR: 206/4 (20 overs)</p>
-      <p>RR: 205/8 (20 overs)</p>
-      <strong>KKR won by 1 run</strong>
+    <div class="match-card">
+      <p><strong>Delhi Capitals vs Sunrisers Hyderabad</strong></p>
+      <p>Date: May 5, 2025</p>
+      <p>Location: Raji Gandhi International Stadium,Hyderabad</p>
     </div>
 
-    <div class="match-box">
-      <h3>Punjab Kings vs Lucknow Super Giants</h3>
-      <p>PBKS: 236/5 (20 overs)</p>
-      <p>LSG: 199/7 (50 overs)</p>
-      <strong>PBKS won by 37 runs</strong>
+    <div class="match-card">
+      <p><strong>Gujrat Titans vs Mumbai Indians</strong></p>
+      <p>Date: May 6, 2025</p>
+      <p>Location: Wankhede Stadium,Mumbai</p>
     </div>
+
+    <a href="index.html" class="button">⬅ Back to Home</a>
   </div>
-
-  <footer>
-    &copy; 2025 Cricket With Sankalpa | Made by Sankalpa
-  </footer>
-
 </body>
 </html>
