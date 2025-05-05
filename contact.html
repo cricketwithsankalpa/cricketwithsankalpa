@@ -1,65 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact - Cricket With Sankalpa</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      padding: 40px;
-      background-color: #f0f0f0;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
     }
-    .container {
+    .box {
+      background-color: #000000a3;
+      padding: 40px;
+      border-radius: 15px;
       max-width: 600px;
-      margin: auto;
-      background: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
     }
     h1 {
-      color: #1a73e8;
+      color: #ffcc00;
     }
-    label {
-      display: block;
-      margin-top: 15px;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 5px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-    button {
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color: #1a73e8;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #135abc;
+    a {
+      color: #ffcc00;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="box">
     <h1>Contact Me</h1>
-    <form action="https://formsubmit.co/sankalpa77767@gmail.com" method="POST">
-      <label for="name">Your Name:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Your Email:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-
-      <button type="submit">Send Message</button>
-    </form>
+    <p>If you have any suggestions or questions, feel free to reach out:</p>
+    <p>Email: <a href="mailto:sankalpacricket@gmail.com">sankalpacricket@gmail.com</a></p>
   </div>
 </body>
 </html>
