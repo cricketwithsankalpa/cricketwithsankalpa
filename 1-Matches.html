@@ -2,87 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Matches - Cricket With Sankalpa</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Live Matches | Cricket With Sankalpa</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
       margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(to right, #1e3c72, #2a5298);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      min-height: 100vh;
-      color: white;
-      padding: 20px;
+      padding: 0;
     }
 
-    .container {
-      background: #001f3f;
-      padding: 2rem;
-      border-radius: 20px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-      max-width: 500px;
-      width: 90%;
+    header {
+      background-color: #1e3c72;
+      color: white;
+      padding: 20px;
       text-align: center;
-      margin-bottom: 2rem;
     }
 
     h1 {
-      color: #ffcc00;
-      margin-bottom: 1rem;
+      margin: 0;
     }
 
-    .match-card {
-      background: #003366;
-      border-radius: 10px;
-      padding: 1rem;
-      margin: 1rem 0;
-    }
-
-    .match-card p {
-      margin: 0.5rem 0;
+    .score-container {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
     }
 
     iframe {
-      width: 100%;
-      height: 450px;
       border: none;
-      border-radius: 10px;
-    }
-
-    a.button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.7rem 1.5rem;
-      background-color: #ffcc00;
-      color: black;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    a.button:hover {
-      background-color: #e6b800;
+      width: 100%;
+      max-width: 800px;
+      height: 500px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>🏏 Upcoming Match</h1>
+  <header>
+    <h1>🏏 Live Cricket Scores</h1>
+  </header>
 
-    <div class="match-card">
-      <p><strong>Gujarat Titans vs Mumbai Indians</strong></p>
-      <p>Date: May 6, 2025</p>
-      <p>Location: Wankhede Stadium, Mumbai</p>
-    </div>
-
-    <a href="index.html" class="button">⬅ Back to Home</a>
+  <div class="score-container">
+    <iframe src="https://widget.cricbuzz.com/cbzscoreboard-widget/widget/html/index.html" 
+            scrolling="yes"></iframe>
   </div>
-
-  <!-- Live Score Widget -->
-  <iframe src="https://widget.crictimes.org/" title="Live Cricket Score Widget"></iframe>
 </body>
 </html>
