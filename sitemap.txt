@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://cricketwithsankalpa.github.io/cricketwithsankalpa/</loc>
+  <lastmod>2025-05-05T11:39:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://cricketwithsankalpa.github.io/cricketwithsankalpa/1-Matches.html</loc>
+  <lastmod>2025-05-05T11:39:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cricketwithsankalpa.github.io/cricketwithsankalpa/2-News.html</loc>
+  <lastmod>2025-05-05T11:39:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cricketwithsankalpa.github.io/cricketwithsankalpa/3-Best%20Player.html</loc>
+  <lastmod>2025-05-05T11:39:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cricketwithsankalpa.github.io/cricketwithsankalpa/4-about.html</loc>
+  <lastmod>2025-05-05T11:39:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cricketwithsankalpa.github.io/cricketwithsankalpa/5-contact.html</loc>
+  <lastmod>2025-05-05T11:39:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cricketwithsankalpa.github.io/cricketwithsankalpa/index.html</loc>
+  <lastmod>2025-05-05T11:39:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
