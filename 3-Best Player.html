@@ -2,46 +2,168 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Players</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Best Players</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
   <style>
     body {
-      font-family: 'Poppins', sans-serif;
       margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
       padding: 20px;
-      background-color: #f1f5f9;
-    }
-    a {
-      text-decoration: none;
-      color: #0b3d91;
-      font-weight: bold;
     }
     h1 {
-      color: #0b3d91;
+      text-align: center;
+      color: #ffcc00;
+      margin-bottom: 2rem;
+    }
+    .player-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
     }
     .player-card {
-      background: white;
-      border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      margin-bottom: 20px;
+      background: #001f3f;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      width: 300px;
+      padding: 1rem;
+      text-align: center;
+    }
+    .player-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .player-card h2 {
+      color: #ffcc00;
+      margin: 0.5rem 0;
+    }
+    .player-card p {
+      font-size: 0.9rem;
+      margin: 0.5rem 0;
+    }
+    .stats {
+      text-align: left;
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+    }
+    .button {
+      display: block;
+      width: fit-content;
+      margin: 2rem auto 0;
+      padding: 0.7rem 1.5rem;
+      background-color: #ffcc00;
+      color: black;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .button:hover {
+      background-color: #e6b800;
+    }
+    @media (max-width: 768px) {
+      .player-grid {
+        flex-direction: column;
+        align-items: center;
+      }
     }
   </style>
 </head>
 <body>
-  <a href="index.html">← Back to Home</a>
-  <h1>Top Players</h1>
-
-  <div class="player-card">
-    <h3>Mahendra Singh Dhoni</h3>
-    <p>WK/Batsman | India</p>
-    <p>Runs: 17,000+ | Matches: 530+</p>
+  <h1>🏏 Cricket Legends</h1>
+  <div class="player-grid">
+    <div class="player-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Sachin_Tendulkar_at_MRF_Promotion_Event.jpg" alt="Sachin Tendulkar">
+      <h2>Sachin Tendulkar</h2>
+      <p>Known as the 'Master Blaster', Sachin is regarded as one of the greatest batsmen in cricket history.</p>
+      <div class="stats">
+        <p><strong>Tests:</strong> 200 matches, 15,921 runs</p>
+        <p><strong>ODIs:</strong> 463 matches, 18,426 runs</p>
+        <p><strong>Centuries:</strong> 100 international centuries</p>
+      </div>
+    </div>
+    <div class="player-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/MS_Dhoni_CSK.jpg" alt="MS Dhoni">
+      <h2>MS Dhoni</h2>
+      <p>Former Indian captain known for his calm demeanor and finishing abilities.</p>
+      <div class="stats">
+        <p><strong>Tests:</strong> 90 matches, 4,876 runs</p>
+        <p><strong>ODIs:</strong> 350 matches, 10,773 runs</p>
+        <p><strong>T20Is:</strong> 98 matches, 1,617 runs</p>
+      </div>
+    </div>
+    <div class="player-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Virat_Kohli.jpg" alt="Virat Kohli">
+      <h2>Virat Kohli</h2>
+      <p>Modern-day great known for his consistency and aggressive batting style.</p>
+      <div class="stats">
+        <p><strong>Tests:</strong> 113 matches, 8,848 runs</p>
+        <p><strong>ODIs:</strong> 275 matches, 12,898 runs</p>
+        <p><strong>T20Is:</strong> 115 matches, 4,008 runs</p>
+      </div>
+    </div>
+    <div class="player-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Steve_Smith_2018.jpg" alt="Steve Smith">
+      <h2>Steve Smith</h2>
+      <p>Australian batsman known for his unorthodox technique and high batting average.</p>
+      <div class="stats">
+        <p><strong>Tests:</strong> 116 matches, 10,271 runs</p>
+        <p><strong>ODIs:</strong> 169 matches, 5,727 runs</p>
+        <p><strong>T20Is:</strong> 67 matches, 1,094 runs</p>
+      </div>
+    </div>
+    <div class="player-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Jasprit_Bumrah.jpg" alt="Jasprit Bumrah">
+      <h2>Jasprit Bumrah</h2>
+      <p>Indian fast bowler known for his unique action and death-over expertise.</p>
+      <div class="stats">
+        <p><strong>Tests:</strong> 45 matches, 205 wickets</p>
+        <p><strong>ODIs:</strong> 89 matches, 149 wickets</p>
+        <p><strong>T20Is:</strong> 70 matches, 89 wickets</p>
+      </div>
+    </div>
+    <div class="player-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Joe_Root_2017.jpg" alt="Joe Root">
+      <h2>Joe Root</h2>
+      <p>Former England captain and one of the leading run-scorers in Test cricket.</p>
+      <div class="stats">
+        <p><strong>Tests:</strong> 130 matches, 11,000+ runs</p>
+        <p><strong>ODIs:</strong> 158 matches, 6,207 runs</p>
+        <p><strong>T20Is:</strong> 32 matches, 893 runs</p>
+      </div>
+    </div>
+    <div class="player-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Mitchell_Starc_2018.jpg" alt="Mitchell Starc">
+      <h2>Mitchell Starc</h2>
+      <p>Australian left-arm fast bowler known for his pace and swing.</p>
+      <div class="stats">
+        <p><strong>Tests:</strong> 77 matches, 356 wickets</p>
+        <p><strong>ODIs:</strong> 107 matches, 219 wickets</p>
+        <p><strong>T20Is:</strong> 58 matches, 73 wickets</p>
+      </div>
+    </div>
+    <div class="player-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Shane_Warne_2015.jpg" alt="Shane Warne">
+      <h2>Shane Warne</h2>
+      <p>Legendary Australian leg-spinner and one of the greatest bowlers in cricket history.</p>
+      <div class="stats">
+        <p><strong>Tests:</strong> 145 matches, 708 wickets</p>
+        <p><strong>ODIs:</strong> 194 matches, 293 wickets</p>
+      </div>
+    </div>
+    <div class="player-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Kane_Williamson_2019.jpg" alt="Kane Williamson">
+      <h2>Kane Williamson</h2>
+      <p>New Zealand captain known for his calm leadership and elegant batting.</p>
+      <div class="stats">
+        <p><strong>Tests:</strong> 105 matches, 9,276 runs</p>
+        <p><strong>ODIs:</strong> 170 matches, 7,041 runs</p>
+        <p><strong>T20Is:</strong> 93 matches, 2,575 runs</p>
+      </div>
+    </div>
   </div>
-
-  <div class="player-card">
-    <h3>Jaspreet Bumrah</h3>
-    <p>Bowler | India</p>
-    <p>Wickets: 440+ | Matches: 200+</p>
-  </div>
+  <a href="index.html" class="button">⬅ Back to Home</a>
 </body>
 </html>
