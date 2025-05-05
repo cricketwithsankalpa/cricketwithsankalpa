@@ -13,28 +13,28 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
       color: white;
+      padding: 20px;
     }
     .container {
       background: #001f3f;
       padding: 2rem;
       border-radius: 20px;
       box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-      max-width: 600px;
-      width: 90%;
-      text-align: center;
+      max-width: 800px;
+      width: 100%;
     }
     h1 {
       color: #ffcc00;
-      margin-bottom: 1rem;
+      text-align: center;
+      margin-bottom: 1.5rem;
     }
     .news-card {
       background: #003366;
       border-radius: 10px;
       padding: 1rem;
       margin: 1rem 0;
-      text-align: left;
     }
     .news-card h3 {
       margin: 0 0 0.5rem;
@@ -57,72 +57,10 @@
     a.button:hover {
       background-color: #e6b800;
     }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>🗞️ Latest Cricket News</h1>
-
-    <div class="news-card">
-      <h3>Nepal Defeats UAE in Historic Match</h3>
-      <p><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Cricket News</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(to right, #1e3c72, #2a5298);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      color: white;
-    }
-    .container {
-      background: #001f3f;
-      padding: 2rem;
-      border-radius: 20px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-      max-width: 600px;
-      width: 90%;
-      text-align: center;
-    }
-    h1 {
-      color: #ffcc00;
-      margin-bottom: 1rem;
-    }
-    .news-card {
-      background: #003366;
-      border-radius: 10px;
-      padding: 1rem;
-      margin: 1rem 0;
-      text-align: left;
-    }
-    .news-card h3 {
-      margin: 0 0 0.5rem;
-      color: #ffd700;
-    }
-    .news-card p {
-      margin: 0;
-      font-size: 0.95rem;
-    }
-    a.button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.7rem 1.5rem;
-      background-color: #ffcc00;
-      color: black;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    a.button:hover {
-      background-color: #e6b800;
+    @media (max-width: 600px) {
+      .container {
+        padding: 1rem;
+      }
     }
   </style>
 </head>
@@ -131,33 +69,31 @@
     <h1>🗞️ Latest Cricket News</h1>
 
     <div class="news-card">
-      <h3>New T20I captain named for bangladesh before the tour against UAE,Pakistan</h3>
-      <p>Bangladesh appoint Litton Das as T20I captain until T20 World Cup 2026.The BCB chairman revealed that litton has been made the captain keeping the long term vision in mind.
-Litton Das will lead the side until the T20 World Cup next year. For Litton, experience has been an important factor. We don't have many experienced players in the current setup. While there were discussions about his form, we believe he has the potential. If he can organize his game, he'll be an asset to the team," BCB Cricket Operation Chairman Najmul Abedin said.Meanwhile, it has also been confirmed that Mahedi Hasan will be the vice-captain of Bangladesh's T20I team for the upcoming series in the UAE and Pakistan. However, he has been picked on the experimentation basis and for now, isn't a permanent appointment. "Mahedi is almost an automatic pick in this format. His tactical awareness stood out to us. But this is not a permanent appointment - just for two series. We want to build a future captain under the guidance of the current one," he said.
-
-"Ahead of the World Cup, we'll have the Asia Cup, and bilateral series against Sri Lanka, Pakistan, and India. There will be plenty of chances to experiment. We want to head into the tournament with a performing unit - and Litton will play a key role in that," he said, adding that Litton is expected to take on the No.3 batting position in the T20 lineup, a spot that demands both stability and aggression," BCB Chief Selector Gazi Ashraf Hossain said.
-</p>
+      <h3>Litton Das Appointed Bangladesh T20I Captain</h3>
+      <p>Bangladesh Cricket Board names Litton Das as the T20I skipper until the T20 World Cup next year. His first assignment will be the T20I series in the UAE and Pakistan. <a href="https://www.cricbuzz.com/cricket-news/134266/litton-das-named-bangladesh-t20i-skipper-until-t20-world-cup-next-year" target="_blank" style="color: #ffcc00;">Read more</a></p>
     </div>
 
     <div class="news-card">
-      <h3>Harshitha,Anushka,Nilakshika Takes SL To Thrilling Last-Over Win Against India</h3>
-      <p>Veteran Sri Lanka batter Nilakshika Silva struck a counter-attacking 33-ball 56 as the hosts beat India by three wickets in match 4 of the ongoing women's ODI tri-series match in Colombo on Sunday, May 4.
+      <h3>MS Dhoni's Bat Gauge Incident Goes Viral</h3>
+      <p>MS Dhoni's reaction after failing a bat gauge test during an IPL 2025 match has taken the internet by storm. <a href="https://sports.ndtv.com/ipl-2025/ms-dhoni-takes-gauge-from-umpires-hand-after-failing-bat-test-this-happens-later-8324934" target="_blank" style="color: #ffcc00;">Read more</a></p>
+    </div>
 
-This was Sri Lanka's first victory in seven years against sub-continental rivals India, and their second in the tournament. With that, the Lankans inched closer to the final.
+    <div class="news-card">
+      <h3>Nepal Appoints Stuart Law as New Head Coach</h3>
+      <p>Former Australian international Stuart Law has been appointed as the new head coach of Nepal's national cricket team. <a href="https://www.aljazeera.com/sports/2025/3/29/nepal-appoint-former-australian-international-law-as-new-coach" target="_blank" style="color: #ffcc00;">Read more</a></p>
+    </div>
 
-It was India's first loss in the event but they are still expected to make the summit clash thanks to their convincing wins in their first two matches.
+    <div class="news-card">
+      <h3>Vaibhav Suryavanshi Receives Praise from PM Modi</h3>
+      <p>14-year-old IPL sensation Vaibhav Suryavanshi has garnered special praise from Prime Minister Narendra Modi for his outstanding performances. <a href="https://sports.ndtv.com/ipl-2025/for-14-year-old-ipl-wonderkid-vaibhav-suryavanshi-special-praise-from-pm-narendra-modi-8332407" target="_blank" style="color: #ffcc00;">Read more</a></p>
+    </div>
 
-Batting first, India posted a competitive 275 for nine riding on aggressive wicketkeeper-batter Richa Ghosh's 48-ball 58. Sri Lanka completed the chase with five balls to spare after slipping to 152 for four in the 33rd over.After Nilakshi flattened the India bowlers with her three sixes and five fours, Anushka Sanjeewani (23 not out off 28 balls) and Sugandika Kumari (19 not out off 20 balls) got the job done for Sri Lanka to push the third team South Africa on the verge of elimination.
-
-</p>
+    <div class="news-card">
+      <h3>Jordan Cox Suffers Injury Scare After Century</h3>
+      <p>England's Jordan Cox suffered an injury scare while celebrating his century against Somerset, raising concerns ahead of upcoming matches. <a href="https://www.espncricinfo.com/story/eng-vs-zim-jordan-cox-suffers-injury-scare-while-scoring-century-against-somerset-1484588" target="_blank" style="color: #ffcc00;">Read more</a></p>
     </div>
 
     <a href="index.html" class="button">⬅ Back to Home</a>
   </div>
-</body>
-</html>
-</p>
-    </div>
-
 </body>
 </html>
